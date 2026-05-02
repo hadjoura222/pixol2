@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--
+    BLOG TEMPLATE INSTRUCTIONS:
+    1. Copy this file to /blog/your-post-slug.html
+    2. Update the <title>, meta description, og tags, and canonical URL
+    3. Update the structured data JSON-LD block
+    4. Fill in the post heading, meta (date, author, tag), and <article> content
+    5. Link to it from the blog index and homepage blog preview section
+  -->
+  <title>POST TITLE – Pixolai Blog</title>
+  <meta name="description" content="POST META DESCRIPTION (150-160 chars)" />
+  <meta name="keywords" content="keyword1, keyword2, keyword3" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://pixolai.com/blog/your-post-slug.html" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="POST TITLE – Pixolai Blog" />
+  <meta property="og:description" content="POST META DESCRIPTION" />
+  <meta property="og:url" content="https://pixolai.com/blog/your-post-slug.html" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "POST TITLE",
+    "description": "POST META DESCRIPTION",
+    "author": {"@type": "Person", "name": "Your Name"},
+    "publisher": {"@type": "Organization", "name": "Pixolai", "url": "https://pixolai.com"},
+    "datePublished": "2025-01-15",
+    "dateModified": "2025-01-15",
+    "mainEntityOfPage": {"@type": "WebPage", "@id": "https://pixolai.com/blog/your-post-slug.html"}
+  }
+  </script>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="icon" href="/assets/images/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main-content">
+
+    <!-- Post Hero -->
+    <div class="post-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a> <span>/</span>
+          <a href="/blog/">Blog</a> <span>/</span>
+          <span aria-current="page">POST TITLE</span>
+        </nav>
+        <h1>POST TITLE GOES HERE</h1>
+        <div class="post-meta">
+          <span class="tag">CATEGORY</span>
+          <time datetime="2025-01-15">January 15, 2025</time>
+          <span>By Author Name</span>
+          <span>5 min read</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Post Body -->
+    <div class="post-body">
+      <div class="container">
+        <article class="post-content" aria-label="Article content">
+
+          <p>
+            INTRODUCTION PARAGRAPH — Write a compelling opening that summarizes what the
+            reader will learn and why it matters.
+          </p>
+
+          <h2>First Section Heading</h2>
+          <p>
+            Body text goes here. Write in a clear, conversational tone. Aim for paragraphs
+            of 3-5 sentences. Use active voice.
+          </p>
+          <p>
+            You can add as many paragraphs as you need under each heading.
+          </p>
+
+          <h2>Second Section Heading</h2>
+          <p>
+            Continue with the next major point or concept.
+          </p>
+          <ul>
+            <li>Bullet point one</li>
+            <li>Bullet point two</li>
+            <li>Bullet point three</li>
+          </ul>
+
+          <h2>Code Example</h2>
+          <p>Use <code>inline code</code> for short snippets, or a full code block:</p>
+          <pre><code>// Example code block
+const result = JSON.parse(jsonString);
+console.log(result);</code></pre>
+
+          <blockquote>
+            "A well-placed quote can add authority and break up the text nicely."
+          </blockquote>
+
+          <h2>Conclusion</h2>
+          <p>
+            Wrap up with a clear takeaway and optionally link to a related tool or post.
+          </p>
+          <p>
+            Ready to try it yourself? <a href="/tools/">Browse Pixolai Tools →</a>
+          </p>
+
+        </article>
+      </div>
+    </div>
+
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="/assets/js/components.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

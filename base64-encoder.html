@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Base64 Encoder &amp; Decoder – Pixolai</title>
+  <meta name="description" content="Free online Base64 encoder and decoder. Encode text to Base64 or decode Base64 back to plain text instantly in your browser." />
+  <meta name="keywords" content="base64 encoder, base64 decoder, base64 online, encode base64, decode base64, free base64 tool" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://pixolai.com/tools/base64-encoder.html" />
+  <meta property="og:title" content="Base64 Encoder &amp; Decoder – Pixolai" />
+  <meta property="og:description" content="Encode or decode Base64 strings instantly. Free, private, browser-based." />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Base64 Encoder","applicationCategory":"DeveloperApplication","operatingSystem":"All","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+  </script>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="icon" href="/assets/images/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <div class="tool-page">
+      <div class="container">
+
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a> <span>/</span>
+          <a href="/tools/">Tools</a> <span>/</span>
+          <span aria-current="page">Base64 Encoder</span>
+        </nav>
+
+        <header class="tool-page-header">
+          <p class="section-label">Developer Tool</p>
+          <h1>Base64 Encoder &amp; Decoder</h1>
+          <p>Encode plain text to Base64 or decode a Base64 string back to readable text. Supports full UTF-8 character sets. 100% client-side.</p>
+        </header>
+
+        <div class="tool-workspace">
+          <div class="workspace-panel">
+            <div class="panel-bar">
+              <span class="panel-label">Input</span>
+              <div class="panel-actions">
+                <button class="panel-btn" id="btn-swap-b64">&#x21C5; Swap</button>
+                <button class="panel-btn" id="btn-clear-b64">Clear</button>
+              </div>
+            </div>
+            <textarea class="tool-input" id="b64-input" placeholder="Enter plain text to encode, or Base64 to decode..." aria-label="Text input" spellcheck="false"></textarea>
+          </div>
+
+          <div class="workspace-panel">
+            <div class="panel-bar">
+              <span class="panel-label">Output</span>
+              <div class="panel-actions">
+                <button class="panel-btn accent" id="btn-copy-b64">Copy</button>
+              </div>
+            </div>
+            <pre class="tool-output" id="b64-output" aria-label="Base64 output" aria-live="polite"></pre>
+          </div>
+        </div>
+
+        <div class="tool-controls">
+          <button class="btn btn-primary" id="btn-encode">&#x1F512; Encode to Base64</button>
+          <button class="btn btn-outline" id="btn-decode">Decode from Base64</button>
+        </div>
+        <p class="tool-msg" id="b64-msg" role="status" aria-live="polite"></p>
+
+        <article style="margin-top:60px;max-width:720px">
+          <h2 style="font-family:var(--font-display);font-size:1.5rem;margin-bottom:12px">What is Base64?</h2>
+          <p style="color:var(--ink-soft);line-height:1.8;margin-bottom:12px">
+            Base64 is a binary-to-text encoding scheme that represents binary data in an ASCII string format.
+            It is commonly used when binary data needs to be stored or transferred over media designed to
+            handle text — such as HTTP headers, JSON fields, or email attachments.
+          </p>
+          <p style="color:var(--ink-soft);line-height:1.8">
+            Common uses include encoding images in CSS data URLs, passing credentials in HTTP Basic Auth
+            headers, and encoding binary file content in JSON APIs.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="/assets/js/components.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

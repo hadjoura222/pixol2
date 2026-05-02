@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unix Timestamp Converter – Pixolai</title>
+  <meta name="description" content="Convert Unix timestamps to human-readable dates and vice versa. Supports seconds, milliseconds, and multiple date formats. Free and browser-based." />
+  <meta name="keywords" content="unix timestamp converter, timestamp to date, epoch converter, unix time, date to timestamp, free timestamp tool" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://pixolai.com/tools/timestamp-converter.html" />
+  <meta property="og:title" content="Unix Timestamp Converter – Pixolai" />
+  <meta property="og:description" content="Convert Unix timestamps to readable dates instantly. Free and private." />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"Timestamp Converter","applicationCategory":"DeveloperApplication","operatingSystem":"All","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
+  </script>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="icon" href="/assets/images/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <div class="tool-page">
+      <div class="container">
+
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a> <span>/</span>
+          <a href="/tools/">Tools</a> <span>/</span>
+          <span aria-current="page">Timestamp Converter</span>
+        </nav>
+
+        <header class="tool-page-header">
+          <p class="section-label">Developer Tool</p>
+          <h1>Unix Timestamp Converter</h1>
+          <p>Enter a Unix timestamp (seconds or milliseconds) or any date string to get a full breakdown — ISO 8601, UTC, local time, relative time, and more.</p>
+        </header>
+
+        <div class="tool-workspace">
+          <div class="workspace-panel">
+            <div class="panel-bar">
+              <span class="panel-label">Input</span>
+              <div class="panel-actions">
+                <button class="panel-btn" id="btn-now">Use Now</button>
+                <button class="panel-btn" id="btn-clear-ts">Clear</button>
+              </div>
+            </div>
+            <textarea class="tool-input" id="ts-input" placeholder="Enter a Unix timestamp or date string&#10;&#10;Examples:&#10;1700000000&#10;1700000000000&#10;2025-01-15&#10;January 15, 2025" aria-label="Timestamp input" spellcheck="false" style="min-height:180px;resize:none"></textarea>
+          </div>
+
+          <div class="workspace-panel">
+            <div class="panel-bar">
+              <span class="panel-label">Converted Formats</span>
+              <div class="panel-actions">
+                <button class="panel-btn accent" id="btn-copy-ts">Copy</button>
+              </div>
+            </div>
+            <pre class="tool-output" id="ts-output" aria-label="Converted timestamp output" aria-live="polite"></pre>
+          </div>
+        </div>
+
+        <div class="tool-controls">
+          <button class="btn btn-primary" id="btn-convert-ts">&#x1F552; Convert</button>
+        </div>
+        <p class="tool-msg" id="ts-msg" role="status" aria-live="polite"></p>
+
+        <article style="margin-top:60px;max-width:720px">
+          <h2 style="font-family:var(--font-display);font-size:1.5rem;margin-bottom:12px">About Unix Timestamps</h2>
+          <p style="color:var(--ink-soft);line-height:1.8;margin-bottom:12px">
+            A Unix timestamp (also called Epoch time or POSIX time) is the number of seconds that have
+            elapsed since January 1, 1970, at 00:00:00 UTC. It is a compact, timezone-independent way
+            to represent a point in time, making it the standard for databases, APIs, and log files.
+          </p>
+          <p style="color:var(--ink-soft);line-height:1.8">
+            This tool accepts timestamps in seconds or milliseconds and converts them to multiple
+            human-readable formats, including ISO 8601, UTC, local time, and relative ("3 days ago").
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="/assets/js/components.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

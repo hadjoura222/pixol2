@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JSON Formatter &amp; Validator – Pixolai</title>
+  <meta name="description" content="Free online JSON formatter and validator. Paste your JSON, beautify or minify it instantly. Works in your browser with no data sent to any server." />
+  <meta name="keywords" content="json formatter, json validator, json beautifier, json minifier, online json tool, free json formatter" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://pixolai.com/tools/json-formatter.html" />
+  <meta property="og:title" content="JSON Formatter &amp; Validator – Pixolai" />
+  <meta property="og:description" content="Free, instant JSON formatting right in your browser. No data leaves your machine." />
+  <meta property="og:url" content="https://pixolai.com/tools/json-formatter.html" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebApplication","name":"JSON Formatter","applicationCategory":"DeveloperApplication","operatingSystem":"All","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"description":"Format, validate and minify JSON online for free."}
+  </script>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="icon" href="/assets/images/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <div class="tool-page">
+      <div class="container">
+
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+          <span aria-hidden="true">/</span>
+          <a href="/tools/">Tools</a>
+          <span aria-hidden="true">/</span>
+          <span aria-current="page">JSON Formatter</span>
+        </nav>
+
+        <!-- Header -->
+        <header class="tool-page-header">
+          <p class="section-label">Developer Tool</p>
+          <h1>JSON Formatter &amp; Validator</h1>
+          <p>Paste any JSON to instantly format, validate, or minify it. Everything runs in your browser — nothing is sent to a server.</p>
+        </header>
+
+        <!-- Workspace -->
+        <div class="tool-workspace">
+          <!-- Input Panel -->
+          <div class="workspace-panel">
+            <div class="panel-bar">
+              <span class="panel-label">Input JSON</span>
+              <div class="panel-actions">
+                <button class="panel-btn" id="btn-sample">Load Sample</button>
+                <button class="panel-btn" id="btn-clear-json">Clear</button>
+              </div>
+            </div>
+            <textarea class="tool-input" id="json-input" placeholder='Paste your JSON here...\n\n{"name":"Pixolai","awesome":true}' aria-label="JSON input" spellcheck="false"></textarea>
+          </div>
+
+          <!-- Output Panel -->
+          <div class="workspace-panel">
+            <div class="panel-bar">
+              <span class="panel-label">Formatted Output</span>
+              <div class="panel-actions">
+                <button class="panel-btn accent" id="btn-copy-json">Copy</button>
+              </div>
+            </div>
+            <pre class="tool-output" id="json-output" aria-label="Formatted JSON output" aria-live="polite"></pre>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="tool-controls">
+          <button class="btn btn-primary" id="btn-format">&#x2728; Format / Beautify</button>
+          <button class="btn btn-outline" id="btn-minify">Minify</button>
+        </div>
+        <p class="tool-msg" id="json-msg" role="status" aria-live="polite"></p>
+
+        <!-- About section (good for SEO) -->
+        <article style="margin-top:60px;max-width:720px">
+          <h2 style="font-family:var(--font-display);font-size:1.5rem;margin-bottom:12px">About this tool</h2>
+          <p style="color:var(--ink-soft);line-height:1.8;margin-bottom:12px">
+            The Pixolai JSON Formatter is a client-side utility that helps developers quickly
+            format, validate, and minify JSON data. It highlights syntax errors so you can find
+            issues instantly. Because everything happens in your browser, no data is ever
+            transmitted to a server — making it safe for sensitive API responses.
+          </p>
+          <p style="color:var(--ink-soft);line-height:1.8">
+            Use it when debugging API responses, writing configuration files, or sharing
+            readable JSON with teammates.
+          </p>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="/assets/js/components.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

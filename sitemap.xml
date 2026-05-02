@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://pixolai.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://pixolai.com/tools/</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://pixolai.com/tools/json-formatter.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://pixolai.com/tools/base64-encoder.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://pixolai.com/tools/timestamp-converter.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://pixolai.com/blog/</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://pixolai.com/blog/sample-post.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://pixolai.com/pages/contact.html</loc><changefreq>yearly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://pixolai.com/pages/privacy.html</loc><changefreq>yearly</changefreq><priority>0.4</priority></url>
+</urlset>

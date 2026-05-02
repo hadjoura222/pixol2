@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog – Developer Tips &amp; Tutorials – Pixolai</title>
+  <meta name="description" content="The Pixolai blog covers developer tools, workflows, encoding, data formats, and productivity tips for software engineers and creators." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://pixolai.com/blog/" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="icon" href="/assets/images/logo.svg" type="image/svg+xml" />
+</head>
+<body>
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <section style="padding:72px 0 80px">
+      <div class="container">
+        <div class="section-head">
+          <p class="section-label">Blog</p>
+          <h1 class="section-title">Developer Tips &amp; Tutorials</h1>
+          <p class="section-sub">Practical guides on tools, encoding, data formats, and developer productivity.</p>
+        </div>
+
+        <!--
+          HOW TO ADD A NEW BLOG POST:
+          1. Copy /blog/blog-template.html → /blog/your-post-slug.html
+          2. Fill in the title, meta, and content
+          3. Copy one of the <article class="blog-card"> blocks below and update the link, title, excerpt, tag, date
+        -->
+
+        <div class="blog-grid">
+          <article class="blog-card fade-up">
+            <span class="blog-tag">Tutorial</span>
+            <h2 style="font-size:1.1rem;font-weight:600;margin-bottom:8px;line-height:1.35">
+              <a href="/blog/sample-post.html">Why Every Developer Needs a JSON Formatter in Their Workflow</a>
+            </h2>
+            <p>Working with APIs means dealing with JSON daily. Here's how a good formatter saves hours and prevents hard-to-spot bugs.</p>
+            <p class="blog-meta"><time datetime="2025-01-15">Jan 15, 2025</time> &middot; 5 min read</p>
+          </article>
+
+          <article class="blog-card fade-up">
+            <span class="blog-tag">Explainer</span>
+            <h2 style="font-size:1.1rem;font-weight:600;margin-bottom:8px;line-height:1.35">
+              <a href="/blog/sample-post.html">Base64 Explained: What It Is and When to Use It</a>
+            </h2>
+            <p>Base64 encoding is everywhere — in auth headers, data URLs, email attachments. Learn exactly what it does and why.</p>
+            <p class="blog-meta"><time datetime="2025-01-08">Jan 8, 2025</time> &middot; 7 min read</p>
+          </article>
+
+          <article class="blog-card fade-up">
+            <span class="blog-tag">Tips</span>
+            <h2 style="font-size:1.1rem;font-weight:600;margin-bottom:8px;line-height:1.35">
+              <a href="/blog/sample-post.html">Unix Timestamps: A Practical Guide for Modern Developers</a>
+            </h2>
+            <p>Timestamps seem simple until they're not. Timezones, overflow, milliseconds vs seconds — this guide covers it all.</p>
+            <p class="blog-meta"><time datetime="2024-12-28">Dec 28, 2024</time> &middot; 6 min read</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="/assets/js/components.js"></script>
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
